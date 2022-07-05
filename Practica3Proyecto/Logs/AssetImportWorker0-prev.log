@@ -1,0 +1,989 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.34f1 (9a4c9c70452b) revision 10112156'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16237 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tarde/Desktop/Practica3Proyecto
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58723
+Successfully changed project path to: C:/Users/Tarde/Desktop/Practica3Proyecto
+C:/Users/Tarde/Desktop/Practica3Proyecto
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tarde/Desktop/Practica3Proyecto/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     8118 MB
+    Driver:   27.20.100.9127
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.561 seconds
+Domain Reload Profiling:
+	ReloadAssembly (562ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1067ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.8 MB.
+System memory in use after: 86.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.060900 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.096200 ms MarkObjects: 2.606300 ms  DeleteObjects: 0.125600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd29dec2d3e10ea75bfb8835a06568a') in 0.008426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.871048 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_SpecularSmoothness.png
+  artifactKey: Guid(b5068666fca838c42a2363d5e66e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_SpecularSmoothness.png using Guid(b5068666fca838c42a2363d5e66e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e00e471688e2717f71d02451b7ddfc') in 0.068476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011999 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV5.prefab
+  artifactKey: Guid(2f91276de7c55894daf22ad8f81ca24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV5.prefab using Guid(2f91276de7c55894daf22ad8f81ca24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183743e49edd3d56c7f77dd7798f758d') in 0.086243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051145 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(2852d0c4c4121364694ebe19f5d48e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-0_comp_dir.png using Guid(2852d0c4c4121364694ebe19f5d48e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91803fc666da1c8c884f31aca479a108') in 0.010514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006081 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat
+  artifactKey: Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat using Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b19f625e54a8581dbc1d240084c11a') in 0.050848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008101 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(d1121a1458949b341967a096552d4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AlbedoTransparency.png using Guid(d1121a1458949b341967a096552d4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b969251c2c6487c0bbd12191e223c7d') in 0.012890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007083 seconds.
+  path: Assets/Mini First Person Controller/Audio/Steps.wav
+  artifactKey: Guid(f8c14f2814b4b124a894a65c32c44987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Steps.wav using Guid(f8c14f2814b4b124a894a65c32c44987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241b92ad3dc863ec391db671828a6d00') in 0.019059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005776 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V6.mat
+  artifactKey: Guid(0b7dd8513656d9c4fa0cbe919fb9fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V6.mat using Guid(0b7dd8513656d9c4fa0cbe919fb9fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a34d56e59d15d9297f2711f481ec602') in 0.023101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007016 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AlbedoTransparency.png
+  artifactKey: Guid(c2eace534e1967048bf8fdc65389e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AlbedoTransparency.png using Guid(c2eace534e1967048bf8fdc65389e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4638a0c7fa744d75ae0b84ee71067f4c') in 0.012644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006276 seconds.
+  path: Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs
+  artifactKey: Guid(ec72980442fddac4d86e75ab24b4d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs using Guid(ec72980442fddac4d86e75ab24b4d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799c948ea28886fbad306fb3400a9f49') in 0.006511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005412 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Jump.cs
+  artifactKey: Guid(8f977f53412d81140ab13b3fca57cca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Jump.cs using Guid(8f977f53412d81140ab13b3fca57cca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f898d6f168cf72f8868ba9f197ca80') in 0.004976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005309 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav
+  artifactKey: Guid(50b288ce0d5ac1e439827c5365c74c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav using Guid(50b288ce0d5ac1e439827c5365c74c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef934c7174bb835eb3719c07820b025') in 0.010885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006537 seconds.
+  path: Assets/Scripts/Menu/SetPlayerName.cs
+  artifactKey: Guid(955125b9b5818894b8097dfe61a5dad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/SetPlayerName.cs using Guid(955125b9b5818894b8097dfe61a5dad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0dfa959ff177c1e1e60dae1e886fb8') in 0.004776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008445 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V2
+  artifactKey: Guid(efef82fd4a4ee134cb2609bd47625bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V2 using Guid(efef82fd4a4ee134cb2609bd47625bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4287bac255c052c2f3cb45b48f361ade') in 0.005077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003309 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes
+  artifactKey: Guid(9e991436548381243bad3f469c0ac4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes using Guid(9e991436548381243bad3f469c0ac4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bee86f8091633a263c6f4ae42f3a58') in 0.005128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003149 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(ea01e0b838ead3d489786f8ff7c255e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(ea01e0b838ead3d489786f8ff7c255e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6931a1423e42a3a5205b8210fc0521c2') in 0.005143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006966 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(8cef63a95b416dc41bb52c34876cef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AlbedoTransparency.png using Guid(8cef63a95b416dc41bb52c34876cef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56567d087086f827444612701a63f27f') in 0.010482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003658 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials
+  artifactKey: Guid(82b494519bd887046825dae2a31c8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials using Guid(82b494519bd887046825dae2a31c8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32106746d18e782010fd05c0127a0659') in 0.005395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005802 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs
+  artifactKey: Guid(6f45facc01772ba47a9ae17bb7061b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs using Guid(6f45facc01772ba47a9ae17bb7061b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f400cae5b3f5a586876b59c30540229') in 0.004954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003078 seconds.
+  path: Assets/AssetStore
+  artifactKey: Guid(80c5184d31aaa224581364e80c85a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore using Guid(80c5184d31aaa224581364e80c85a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2e6c8009fd4b2ee9cbaa31cc1694e1') in 0.004848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004797 seconds.
+  path: Assets/Materials/OrangeMaterial.mat
+  artifactKey: Guid(4548b0a012152a149b18b9ad01d5b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OrangeMaterial.mat using Guid(4548b0a012152a149b18b9ad01d5b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a2c4aafbefa05e9ca57d023966a5ec') in 0.011810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006644 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png using Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4e25af103656550c05b32fd9f9eaa3') in 0.011883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010287 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(9b76e69cbc8af7f4c9964af354d53982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_Normal.png using Guid(9b76e69cbc8af7f4c9964af354d53982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907fea33121ba2643628132d0e9d8d58') in 0.017480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004136 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom
+  artifactKey: Guid(cc94c163cb687de4ab565258a073c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom using Guid(cc94c163cb687de4ab565258a073c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fff7eb57c46ba2967c8005a3f7fc8cf') in 0.005177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008272 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_Normal.png
+  artifactKey: Guid(ad2bbb2667991d949a922f78a57aecde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_Normal.png using Guid(ad2bbb2667991d949a922f78a57aecde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c922dbb8025a95ddb7b451977775e1') in 0.016160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006893 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump/Jump 3.wav
+  artifactKey: Guid(b16dc74b7376aca46bd0c6be96c940fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Jump/Jump 3.wav using Guid(b16dc74b7376aca46bd0c6be96c940fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7708b6937345921e47aa61b7685a2f73') in 0.010318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006463 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V2.mat
+  artifactKey: Guid(8bf0befb68296734682237e45c19dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V2.mat using Guid(8bf0befb68296734682237e45c19dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a833e24911445ee719f18cb43d9bb5a') in 0.264713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007820 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Light.mat
+  artifactKey: Guid(7bb4d41d8be498b418e107b9fcd42bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Light.mat using Guid(7bb4d41d8be498b418e107b9fcd42bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd18bf2dd81e342b9a090bf4fd3a7db') in 0.118800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005072 seconds.
+  path: Assets/Mini First Person Controller/Demo
+  artifactKey: Guid(8a3a23bda64e6154183cea502baab83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Demo using Guid(8a3a23bda64e6154183cea502baab83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912dfa8292a0dc98e5a422f2edf6be50') in 0.005599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007090 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AO.png
+  artifactKey: Guid(188ef17cbc7cb864c8f826ab6b04129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AO.png using Guid(188ef17cbc7cb864c8f826ab6b04129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f8ce3986255f3275c97ebc0b9cbbc') in 0.014850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008451 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Floor.png
+  artifactKey: Guid(74f0f4be3cf5d10489f530c633adcdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Floor.png using Guid(74f0f4be3cf5d10489f530c633adcdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d21eaa568288fa9bc126744516265f') in 0.015238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007521 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(9175ece1562216040889ca52ba264175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-1_comp_shadowmask.png using Guid(9175ece1562216040889ca52ba264175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e180d9212061ea7458562be63858de3f') in 0.013497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010781 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(e2d2f6fd919564b42bdfb8258f8f800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_SpecularSmoothness.png using Guid(e2d2f6fd919564b42bdfb8258f8f800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f7d411e44ba54a46a14cf339c2256') in 0.015048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004107 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V5
+  artifactKey: Guid(ed60cf72e851d814a8862546a1236435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V5 using Guid(ed60cf72e851d814a8862546a1236435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504528f1f3745fc9b8eb880e8cb616e9') in 0.002361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008033 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(8b8d88670764c144cb3ad65162664a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AlbedoTransparency.png using Guid(8b8d88670764c144cb3ad65162664a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e4568585b192718c397b9c8f4ec273') in 0.012347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009629 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_Normal.png
+  artifactKey: Guid(09e6479823478b7498ef88eac620c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_Normal.png using Guid(09e6479823478b7498ef88eac620c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22be417a1a5d38165630f132cda99466') in 0.017684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008478 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(5a6ce0321a333e445b92d1c0508bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AlbedoTransparency.png using Guid(5a6ce0321a333e445b92d1c0508bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec4943dceacb6c15a1a62b8add8347a') in 0.014612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007366 seconds.
+  path: Assets/Materials/RedMaterial.mat
+  artifactKey: Guid(d11fe752c7f26c641867d928f6686af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RedMaterial.mat using Guid(d11fe752c7f26c641867d928f6686af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2796b35fc8bc49cb39f675795009745') in 0.013486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005012 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing
+  artifactKey: Guid(68f6b2ea99258924887840591096de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Landing using Guid(68f6b2ea99258924887840591096de7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a384f76f95da28d04c87cd83adb0f1') in 0.006240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006528 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV4.prefab
+  artifactKey: Guid(cb60040219dadd549961b794ea48a5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV4.prefab using Guid(cb60040219dadd549961b794ea48a5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef9ee05b182cdb1f277876f37ab8a44') in 0.038558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007833 seconds.
+  path: Assets/Mini First Person Controller/First Person Controller.prefab
+  artifactKey: Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/First Person Controller.prefab using Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6cadaaaeee87188bf43a996850180d') in 0.020190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010123 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(a8de4f8c08bdcc141b343aa3d9560176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_light.exr using Guid(a8de4f8c08bdcc141b343aa3d9560176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c76671721a848c3f842e7981ecc2bb') in 0.021326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011064 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/WhitePlaster.mat
+  artifactKey: Guid(595cdeea06e831848902476806feaede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/WhitePlaster.mat using Guid(595cdeea06e831848902476806feaede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581f61d10aba5840b9862ab7b47b1e65') in 0.013543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007577 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch start 2.wav
+  artifactKey: Guid(8a49e3e94b1e34e47bc5f47c5233c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch start 2.wav using Guid(8a49e3e94b1e34e47bc5f47c5233c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c15a83add06c9b057863891639e3076') in 0.012290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007225 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav
+  artifactKey: Guid(3e0e4a1bf1a03c24a85ad855f4be231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav using Guid(3e0e4a1bf1a03c24a85ad855f4be231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618e7cf530ddeb994ddb60e7d7ef0554') in 0.012273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004379 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V6
+  artifactKey: Guid(99065380913b13945af2a0c73dc19fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V6 using Guid(99065380913b13945af2a0c73dc19fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05d4f86707a512d29feb1269a46dae4') in 0.002263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007508 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(80c1f5cf297fd0c4e847cc853c2e7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_SpecularSmoothness.png using Guid(80c1f5cf297fd0c4e847cc853c2e7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b4ea3946c9afe38d631eb0615ec38b') in 0.015606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004830 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures
+  artifactKey: Guid(c7e6bc552c1d0f94ea4ee08ac0edde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures using Guid(c7e6bc552c1d0f94ea4ee08ac0edde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e20b98c1c34d973670e9c60a4e7a106') in 0.006550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003958 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V4
+  artifactKey: Guid(8dd43bc86cfaf9e4bb9aa4a9164c4d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V4 using Guid(8dd43bc86cfaf9e4bb9aa4a9164c4d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62059d5ccc01d7b49e1936af402e49af') in 0.006936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018708 seconds.
+  path: Assets/Scenes/GameScene/LightingData.asset
+  artifactKey: Guid(4b72fe4b7cf073d4e9c31ffc1a92f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/LightingData.asset using Guid(4b72fe4b7cf073d4e9c31ffc1a92f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195fa0820c3b20b5a1b2724a32093547') in 0.007732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007359 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AlbedoTransparency.png
+  artifactKey: Guid(42c96235f6565cf44abc098d6d3baf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AlbedoTransparency.png using Guid(42c96235f6565cf44abc098d6d3baf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d92c6f487cb2732f23473e26772bbd') in 0.014915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004522 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2
+  artifactKey: Guid(35ab6970fd4171c46b6b8ee261001da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2 using Guid(35ab6970fd4171c46b6b8ee261001da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef849d174debc2dbb3967877adb0dc8') in 0.002102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006527 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav
+  artifactKey: Guid(5b26cf3cd5f6b914a80e6d3476caaf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav using Guid(5b26cf3cd5f6b914a80e6d3476caaf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042303beaf373b20f4e0e026f9a6c32f') in 0.012659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007001 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo.unity
+  artifactKey: Guid(d023fa21e226ff04abc05357e167a872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo.unity using Guid(d023fa21e226ff04abc05357e167a872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3661c53b9fcbf61747e647a8c12298c8') in 0.006058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005767 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch end 2.wav
+  artifactKey: Guid(e6f44b6fce71be34dbbd6d12cb3d3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch end 2.wav using Guid(e6f44b6fce71be34dbbd6d12cb3d3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839323babdc32c65a68e826ed8db5efa') in 0.010213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003850 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V1
+  artifactKey: Guid(221e35fd4a6fd4048917e0b5cc1870df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V1 using Guid(221e35fd4a6fd4048917e0b5cc1870df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beabd4844f298da7f9a16b66d252fcd') in 0.005317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007250 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AO.png
+  artifactKey: Guid(0c7b377794b944e49a654d8f410de1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AO.png using Guid(0c7b377794b944e49a654d8f410de1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddbfa0cdcc183c250e3e8dacdbe4c35') in 0.012185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005795 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V2.mat
+  artifactKey: Guid(20c3ebf242586e74cb5d2e2deb379c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V2.mat using Guid(20c3ebf242586e74cb5d2e2deb379c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a751cbff653f6a82ca09bb25386705') in 0.022894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010811 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(030c4c619d224ab438e38b06e20193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_Normal.png using Guid(030c4c619d224ab438e38b06e20193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e439845336df3f5465bc31679806a968') in 0.016315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009911 seconds.
+  path: Assets/Animation/DoorAnimations/OpenDoor.anim
+  artifactKey: Guid(520a24d91e5874c4ab440153aaf1c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/DoorAnimations/OpenDoor.anim using Guid(520a24d91e5874c4ab440153aaf1c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad55586261f43887140a04a65e99a8b6') in 0.007682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006411 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/Video intercomV2.prefab
+  artifactKey: Guid(f742591dd0579d348b57910f6cb34ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/Video intercomV2.prefab using Guid(f742591dd0579d348b57910f6cb34ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4640b64608971bc40553c027a10d747') in 0.021985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003762 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo
+  artifactKey: Guid(192beffdf83e15a4890225c77e0cec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo using Guid(192beffdf83e15a4890225c77e0cec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e408671838d7f347ce57b4a5b25c15c0') in 0.001916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006262 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/ReflectionProbe-1.exr
+  artifactKey: Guid(40a227f451ff05643921346a4b8266e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/ReflectionProbe-1.exr using Guid(40a227f451ff05643921346a4b8266e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac785c949dce659b90f0d1f51bdc47') in 0.018681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004164 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials
+  artifactKey: Guid(950e06bd76c41c146acf29dd9aae8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials using Guid(950e06bd76c41c146acf29dd9aae8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84eb6ce186af31acfa2afdcc820b4b97') in 0.001866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010973 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(96c6fb585e424844f9d5f2347f6c892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_Normal.png using Guid(96c6fb585e424844f9d5f2347f6c892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d16cc75fa2f65b45cbf55492e58c0ec') in 0.013561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003833 seconds.
+  path: Assets/Mini First Person Controller
+  artifactKey: Guid(9f704daef6316a6468abfebdfa78df7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller using Guid(9f704daef6316a6468abfebdfa78df7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b973008347c5caf60048c907da689287') in 0.005400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005713 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Crouch.cs
+  artifactKey: Guid(27b67ddb3d23b8340b125aede56d7e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Crouch.cs using Guid(27b67ddb3d23b8340b125aede56d7e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f32f5966fb181dced39b50a98bf2726') in 0.005032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005176 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Floor.mat
+  artifactKey: Guid(bca819c7880d78245b09885ed9230437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Floor.mat using Guid(bca819c7880d78245b09885ed9230437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed663343e54e53229a0e0e7b5e16391') in 0.017953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012677 seconds.
+  path: Assets/Mini First Person Controller/Demo/readme.pdf
+  artifactKey: Guid(2d6d961d8f9e0bc4198fc156b2d945a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Demo/readme.pdf using Guid(2d6d961d8f9e0bc4198fc156b2d945a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6b7032b183ed5bce5d67895a970571') in 0.030500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006378 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AO.png
+  artifactKey: Guid(bd22af204859c274e950d2a4e5ef4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AO.png using Guid(bd22af204859c274e950d2a4e5ef4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036f9c732aecee4d6f02b6ba06bab09a') in 0.007267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004164 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1
+  artifactKey: Guid(765b18ffc9d404047bbdb0b8f9fc003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1 using Guid(765b18ffc9d404047bbdb0b8f9fc003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2331599812d7b2412709b7c72c557e48') in 0.001787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005566 seconds.
+  path: Assets/Scenes/GameScene/NavMesh.asset
+  artifactKey: Guid(ed7ce99c17182134a8a09803cee6abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/NavMesh.asset using Guid(ed7ce99c17182134a8a09803cee6abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9815c49032fe8128dd56b1df9f967503') in 0.005977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005704 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V1.mat
+  artifactKey: Guid(6ab145d3c4567994b8cdd5490fcde60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V1.mat using Guid(6ab145d3c4567994b8cdd5490fcde60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59c8a15781fe48cfb7e79af26f7f734') in 0.025008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008430 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/Video intercomV1.prefab
+  artifactKey: Guid(98859ffeeab916344bce9e52e502eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/Video intercomV1.prefab using Guid(98859ffeeab916344bce9e52e502eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18554fb28f4127df7e0c5400b71c5e1b') in 0.032616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008242 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch end 3.wav
+  artifactKey: Guid(9d46f9a0e3e8be44aa2dc581bd6e0c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch end 3.wav using Guid(9d46f9a0e3e8be44aa2dc581bd6e0c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73af0a8ede2d6650113f3a016cf374d3') in 0.012706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004573 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump
+  artifactKey: Guid(2366e4e813d3ad94a9b05caa58dc6484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Jump using Guid(2366e4e813d3ad94a9b05caa58dc6484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd95e3326b6f3f153d2486deeb06a2a5') in 0.002554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009872 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(ed800070650b895418e86461fd5abc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_SpecularSmoothness.png using Guid(ed800070650b895418e86461fd5abc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c3f21c9a489630de71a648400f6b14') in 0.017231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008287 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Zoom.cs
+  artifactKey: Guid(780f90e951d635f439326ea715cd97e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Zoom.cs using Guid(780f90e951d635f439326ea715cd97e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4ce030369f171de25b37c4a82444bc') in 0.006037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008856 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(7e8159dbec8fdfb4ca388305bc03d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-1_comp_light.exr using Guid(7e8159dbec8fdfb4ca388305bc03d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6773b74635ee156e0cd3db4def2f8dab') in 0.013540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008271 seconds.
+  path: Assets/Mini First Person Controller/First Person Controller Minimal.prefab
+  artifactKey: Guid(f2e0b7ae4dae8cf44955bccd3512b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/First Person Controller Minimal.prefab using Guid(f2e0b7ae4dae8cf44955bccd3512b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890da6e694fcd8de5168dca192df974e') in 0.014957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007027 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat
+  artifactKey: Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat using Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d618a1b798782c49524b42aed81f658') in 0.026404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004929 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes
+  artifactKey: Guid(1e90ea3e242c6f145a8b313c76a732e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes using Guid(1e90ea3e242c6f145a8b313c76a732e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef6f9c8f2d89c0eb3c1a77dbbbfeb72') in 0.006625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010383 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V7
+  artifactKey: Guid(0bd714c086536ec4fad6616c37ae42e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V7 using Guid(0bd714c086536ec4fad6616c37ae42e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52e0ffff9f6bc83f9195da8a46fff6b') in 0.002218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007762 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(4f86f5849b7bb684ea823025aee879f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_SpecularSmoothness.png using Guid(4f86f5849b7bb684ea823025aee879f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a2ee32fcd49b319b41ecfd230df1d4') in 0.013766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009667 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/LightingData.asset
+  artifactKey: Guid(a3ae8d0b1761e714d96b4d94f5328aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/LightingData.asset using Guid(a3ae8d0b1761e714d96b4d94f5328aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0060504f1c0b1c697e34e49f37d067b') in 0.004427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006255 seconds.
+  path: Assets/Mini First Person Controller/Demo/Demo Mini FPC.unity
+  artifactKey: Guid(5f2b90ba65c7b244b875e239d5d42650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Demo/Demo Mini FPC.unity using Guid(5f2b90ba65c7b244b875e239d5d42650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70678c3d0b37246391d08218dd39e785') in 0.006083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012850 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(a703548941a513a4b9d01a9b3640fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_SpecularSmoothness.png using Guid(a703548941a513a4b9d01a9b3640fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e538f2c2606b0a5e7ecbbe009343c9') in 0.014011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007519 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav
+  artifactKey: Guid(ab9637a2491abbf4ca9c9601321cbb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav using Guid(ab9637a2491abbf4ca9c9601321cbb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9de07f339ae259e3e4f86b968b7969') in 0.013560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007663 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/13 - Default.mat
+  artifactKey: Guid(9d7aa21e46a0c434680c2fa87f7821e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/13 - Default.mat using Guid(9d7aa21e46a0c434680c2fa87f7821e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c34c7fa955fefcdb8b2dab0d53f21d6') in 0.013546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007914 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch start 1.wav
+  artifactKey: Guid(9b910aa79c186384cb17f28fad642b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch start 1.wav using Guid(9b910aa79c186384cb17f28fad642b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91c2ddadf91d82969f53efeb2f64b94') in 0.012894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009371 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(7b5672ed77821cb4ab3b7ed1d9ffb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-1_comp_light.exr using Guid(7b5672ed77821cb4ab3b7ed1d9ffb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94fc351f9fdd8450d5b54653666e3c1') in 0.014754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016622 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png using Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363fd86978075cc1be43ca13ae6e94b') in 0.017792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009021 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(736cf1393b5af3740ba9985cf8797509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-0_comp_light.exr using Guid(736cf1393b5af3740ba9985cf8797509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79bffb804055a8427d2613d2f8f3020') in 0.012379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009283 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_SpecularSmoothness.png
+  artifactKey: Guid(6a642236548117b4ebe108d79a2e96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_SpecularSmoothness.png using Guid(6a642236548117b4ebe108d79a2e96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad074ff09c7a52cfa92ed35a796be99') in 0.014010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004920 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001
+  artifactKey: Guid(a7864a75bae0b2a4d9ab6db73266bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001 using Guid(a7864a75bae0b2a4d9ab6db73266bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b55ebee1bdeb90e21586bd1f243cb6') in 0.007211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006761 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat
+  artifactKey: Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat using Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9dbe7afdd8ba07e99e72a4b898d7e6') in 0.028119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004177 seconds.
+  path: Assets/Mini First Person Controller/Scripts
+  artifactKey: Guid(efcc2f8b689b7c547a119dac5cf66a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts using Guid(efcc2f8b689b7c547a119dac5cf66a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d65bf14c9e642d60aa6dacff678f72d') in 0.005235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006177 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(4f33598d96c1d0a438b8cdef91817def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-0_comp_shadowmask.png using Guid(4f33598d96c1d0a438b8cdef91817def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff304a55b74c0cf1c23795d8ddd6f8cf') in 0.011303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007419 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV6.prefab
+  artifactKey: Guid(89dd74c61103b7644ab2dd9d26606ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV6.prefab using Guid(89dd74c61103b7644ab2dd9d26606ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b3ae5f4a05756a31d2e5219427ff80') in 0.024445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007154 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/FloorAO.png
+  artifactKey: Guid(4a8770c8fe9a3f64d94ce3bc9d1817e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/FloorAO.png using Guid(4a8770c8fe9a3f64d94ce3bc9d1817e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b045dfc4d26156f9e42051c754a42f26') in 0.011648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006733 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV2.prefab
+  artifactKey: Guid(43eee9f9554092940955b82111321ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV2.prefab using Guid(43eee9f9554092940955b82111321ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae0f4c2d99b1a86855adead0e38f223') in 0.018694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003964 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components
+  artifactKey: Guid(27054f2851dc4314a8359af559137e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components using Guid(27054f2851dc4314a8359af559137e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c25ba168652959ddaeb062ab6ea5c91') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004286 seconds.
+  path: Assets/Scenes/GameScene
+  artifactKey: Guid(556c99d946d27fc4e80b8c538aa356a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene using Guid(556c99d946d27fc4e80b8c538aa356a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9a8c39314cfec5bc2223305a81f35b') in 0.005963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007242 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png using Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833f3227dac34278348cc4d55b19adf1') in 0.013182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011520 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(b2e787731846d2042955b7bc55da9630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/ReflectionProbe-0.exr using Guid(b2e787731846d2042955b7bc55da9630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d8f58633a9c491c835fbea08036b9b') in 0.041084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014201 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch
+  artifactKey: Guid(52be4a3a9bfd6b94eb6e06f83779f5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch using Guid(52be4a3a9bfd6b94eb6e06f83779f5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f62c301fb5d3ea3aab0287d0736a5df') in 0.003641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010906 seconds.
+  path: Assets/Animation/DoorAnimations/DoorAnimator.controller
+  artifactKey: Guid(6b28e710c8df3184c938b0fcea7b5c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/DoorAnimations/DoorAnimator.controller using Guid(6b28e710c8df3184c938b0fcea7b5c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cc4f424cd163ef07b2cfe8f7189da5') in 0.016108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010116 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V4.mat
+  artifactKey: Guid(c2d8aea817ff67d4292424d139872f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/Materials/V4.mat using Guid(c2d8aea817ff67d4292424d139872f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279d02ccfa0b94c8b2c78b1e465b83b') in 0.039832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010968 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png
+  artifactKey: Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png using Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc4b23a3e7702d89bba97aee2249c1a') in 0.008237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015772 seconds.
+  path: Assets/Mini First Person Controller/Audio/Crouch/Crouch end 1.wav
+  artifactKey: Guid(aac7fe48a39af6e46a2d48c5d2655976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Crouch/Crouch end 1.wav using Guid(aac7fe48a39af6e46a2d48c5d2655976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fa626e37c916bc2ce7015891b34cf1') in 0.017205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014852 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png
+  artifactKey: Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png using Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e850eaa70a5c78d836f60298f366a340') in 0.009791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014096 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png using Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bc1de3bf3e9b50d54ea12332e00600') in 0.016931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009029 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV3.prefab
+  artifactKey: Guid(4fdd4c7eaedfdf4468f35acfb5fbce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV3.prefab using Guid(4fdd4c7eaedfdf4468f35acfb5fbce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2f607e95913b82d261e7e978bb915a') in 0.032544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005603 seconds.
+  path: Assets/Mini First Person Controller/Audio
+  artifactKey: Guid(99e4c92d4c395a74aa163e79c8149872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio using Guid(99e4c92d4c395a74aa163e79c8149872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364e18451afad570ce3d60f4ea41bdcb') in 0.008400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008478 seconds.
+  path: Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs
+  artifactKey: Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs using Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb16123a78c7b5d7ac4e33cd520e1dd0') in 0.006252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009425 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(159ec742e94ef4045a9f19736e986997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-1_comp_dir.png using Guid(159ec742e94ef4045a9f19736e986997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c48818e952e9004987dcc0717d264e') in 0.013172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009016 seconds.
+  path: Assets/Scripts/GameScene/Door.cs
+  artifactKey: Guid(43c07c826c2a39048a3c1b3d551b1da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScene/Door.cs using Guid(43c07c826c2a39048a3c1b3d551b1da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2682fa5bc635b57f5de7c57bbbc097') in 0.006163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011675 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png using Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3790cce3714295a40bf9879cbaabdfae') in 0.015748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004731 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V3
+  artifactKey: Guid(57030a198c0579942a660bec1b8f382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V3 using Guid(57030a198c0579942a660bec1b8f382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cd93bedb9410933dff566abc37baae') in 0.002466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006618 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump/Jump 1.wav
+  artifactKey: Guid(3888a1e1c52793144a6d07b8c508772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Jump/Jump 1.wav using Guid(3888a1e1c52793144a6d07b8c508772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ad6f98fd60c2e03eff90fd871ca29d') in 0.014719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009233 seconds.
+  path: Assets/Mini First Person Controller/Demo/Demo Mini FPC Minimal.unity
+  artifactKey: Guid(61309573591a99c4ca97697d104b41ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Demo/Demo Mini FPC Minimal.unity using Guid(61309573591a99c4ca97697d104b41ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859be73255b4c07294935013119c4b96') in 0.008420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010953 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(bf6a199938892ba48adc1e257c1f6c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_SpecularSmoothness.png using Guid(bf6a199938892ba48adc1e257c1f6c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c97f6027054d2af33d188b796cbc39') in 0.017985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013357 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png using Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864b7db61c6ed2f9e73f27c3a2311196') in 0.019710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009222 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AO.png
+  artifactKey: Guid(1091c73cfaecb1e41a7f2d66b5548365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AO.png using Guid(1091c73cfaecb1e41a7f2d66b5548365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7338fec6c0215d29e91621045bf48f') in 0.011270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009861 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials/01 - Default.mat
+  artifactKey: Guid(f096eb4a802cfa94b9b284728db8ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials/01 - Default.mat using Guid(f096eb4a802cfa94b9b284728db8ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88a66d537db1c67c78ece929776c206') in 0.046588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012365 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(e875a22873012bb4d92154896bd61320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(e875a22873012bb4d92154896bd61320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18931233565befe7d104f5bcc3bffa4') in 0.004730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023853 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 1.wav
+  artifactKey: Guid(9fcb6dc763cd0354da305b5de2091287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 1.wav using Guid(9fcb6dc763cd0354da305b5de2091287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8662e15641365758ed9a6a0db5ff42') in 0.025022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028541 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(2bad03565f7a6864bb97ed2dc7d04dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AlbedoTransparency.png using Guid(2bad03565f7a6864bb97ed2dc7d04dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e64e951d04f59538b606e11e1ec8f2') in 0.015841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007721 seconds.
+  path: Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(015029d2808821445b3b4faa32761c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_dir.png using Guid(015029d2808821445b3b4faa32761c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa5302990742e08d46b405f430e409a') in 0.015816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007979 seconds.
+  path: Assets/Scenes/GameScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(d1bf10d957fc98d468931251d8f23037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/Lightmap-1_comp_dir.png using Guid(d1bf10d957fc98d468931251d8f23037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9e01a651da64e1f0a50e37ebc1651b') in 0.010608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007001 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AO.png
+  artifactKey: Guid(49c6e799cd62caa4e9a3c482f5b1c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AO.png using Guid(49c6e799cd62caa4e9a3c482f5b1c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed1ba27126b325d9334bd1ffbf14709') in 0.007802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011372 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(1ea63be4bbf2e2d4a83451053a7fd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_Normal.png using Guid(1ea63be4bbf2e2d4a83451053a7fd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2272ee31b4d809dee17daa4f8b3b3bb5') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006322 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs
+  artifactKey: Guid(084c01ab381b9da4082c1f84cf70751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs using Guid(084c01ab381b9da4082c1f84cf70751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aacc6c66100aa312e130dd11c5fb08') in 0.005086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006446 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV1.prefab
+  artifactKey: Guid(214b673e61a328f4b97a4c1f1bba63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV1.prefab using Guid(214b673e61a328f4b97a4c1f1bba63d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce2d3a4be8ae783ef115ae01d54f3d0') in 0.019877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006412 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V1.mat
+  artifactKey: Guid(7497d8d1425a79244bbf755d9b328dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V1.mat using Guid(7497d8d1425a79244bbf755d9b328dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4cfb1d21b8734aebc026c4702b412b') in 0.023144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004470 seconds.
+  path: Assets/AssetStore/DoorPackFree
+  artifactKey: Guid(d5c305dde054541458637464e40e17a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree using Guid(d5c305dde054541458637464e40e17a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b342b58e4fdae0ac2036de4b1911262e') in 0.006692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007552 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png
+  artifactKey: Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png using Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a5308c583145851b4346fa687d67fd') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018849 seconds.
+  path: Assets/Scenes/GameScene/ReflectionProbe-0.exr
+  artifactKey: Guid(2c9a3602622fc6d4dacbf6735a0b1808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene/ReflectionProbe-0.exr using Guid(2c9a3602622fc6d4dacbf6735a0b1808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b93a458a92f0de8c26af0248c5f4d4') in 0.016113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006832 seconds.
+  path: Assets/Scripts/Menu/LoadPlayerName.cs
+  artifactKey: Guid(48cdab055099de5469a41556f330fbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/LoadPlayerName.cs using Guid(48cdab055099de5469a41556f330fbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd07a05095642c6cedfa449491dcd39d') in 0.005297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006366 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab/DoorV7.prefab
+  artifactKey: Guid(278941cfba0a8a14cb8571113f4c93d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab/DoorV7.prefab using Guid(278941cfba0a8a14cb8571113f4c93d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d201ab94f82fa8f38a85e691f037e7') in 0.027324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006053 seconds.
+  path: Assets/Materials/GreeenMaterial.mat
+  artifactKey: Guid(64c1daf2c20550043a3db193d2e02c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GreeenMaterial.mat using Guid(64c1daf2c20550043a3db193d2e02c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079f0d31d3b2a9e88476d3af829f7de2') in 0.011711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008320 seconds.
+  path: Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png
+  artifactKey: Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png using Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e5272bfb17f89db473c95bdb4d8cc2') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004310 seconds.
+  path: Assets/AssetStore/DoorPackFree/Prefab
+  artifactKey: Guid(8b421e942b4b4274cbb9a18cf17aa6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/DoorPackFree/Prefab using Guid(8b421e942b4b4274cbb9a18cf17aa6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212dc9860ad906adb4f2d673ade25d72') in 0.005937 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
